@@ -1,0 +1,9 @@
+# Makes an external grip with the gripper to the desired position
+int64 index        # device type, 0 for single, 1 for dual primary, 2 for dual secondary
+float64 width         # The width to move the gripper to in mm 
+int64 force         # The force to move the gripper width in N (20 to 140)
+int64 speed         # The speed of the gripper in % (10 to 100)
+bool is_wait          # wait for the grip to end or not?
+---
+#Result
+int64 success         # 0: successful, -1: device not connected, -2: invalid input, -3: is busy

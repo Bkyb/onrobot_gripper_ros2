@@ -1,0 +1,5 @@
+# Gets if the gripper is gripping or not
+int64 index       # device type, 0 for single, 1 for dual primary, 2 for dual secondary
+---
+#Result
+bool success

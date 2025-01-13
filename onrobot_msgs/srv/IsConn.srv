@@ -1,0 +1,6 @@
+# Returns with True if 2FG device is connected, False otherwise
+int64 index          # device type, 0 for single, 1 for dual primary, 2 for dual secondary
+int64 id             # device id, 0xC0 for 2fg7
+---
+#Result
+bool success

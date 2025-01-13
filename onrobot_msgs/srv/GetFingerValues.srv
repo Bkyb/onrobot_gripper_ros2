@@ -1,0 +1,8 @@
+# Get current finger length, finger height, fingertip offset, finger orientation
+int64 index       # device type, 0 for single, 1 for dual primary, 2 for dual secondary
+---
+#Result
+float64 length
+float64 height
+float64 offset
+bool orient
