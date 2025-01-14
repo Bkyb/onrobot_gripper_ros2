@@ -276,15 +276,15 @@ int twofg_xmlrpc::grip_internal(int t_index, double t_width, int n_force, int p_
     double const min = xmlrpc_c::value_double(min_width);
 
     if(t_width > max || t_width < min){
-        std::cerr<<"Invalid 2FG width parameter, "<<min<<"-"<<max<<" is valid only"<<std::endl;
+        std::cerr<<"Invalid 2FG width parameter, The valid range is between "<<min<<" and "<<max <<"."<<std::endl;
         return -2;
     }
     if(n_force > 140 || n_force < 20){
-        std::cerr<<"Invalid 2FG force parameter, 20-140 is valid only"<<std::endl;
+        std::cerr<<"Invalid 2FG width parameter, The valid range is between 20 and 140."<<std::endl;
         return -2;
     }
     if(p_speed > 100 || p_speed < 10){
-        std::cerr<<"Invalid 2FG speed parameter, 10-100 is valid only"<<std::endl;
+        std::cerr<<"Invalid 2FG width parameter, The valid range is between 10 and 100."<<std::endl;
         return -2;
     }
     
@@ -334,15 +334,15 @@ int twofg_xmlrpc::grip_external(int t_index, double t_width, int n_force, int p_
     double const min = xmlrpc_c::value_double(min_width);
 
     if(t_width > max || t_width < min){
-        std::cerr<<"Invalid 2FG width parameter, "<<min<<"-"<<max <<" is valid only."<<std::endl;
+        std::cerr<<"Invalid 2FG width parameter, The valid range is between "<<min<<" and "<<max <<"."<<std::endl;
         return -2;
     }
     if(n_force > 140 || n_force < 20){
-        std::cerr<<"Invalid 2FG force parameter, 20-140 is valid only."<<std::endl;
+        std::cerr<<"Invalid 2FG width parameter, The valid range is between 20 and 140."<<std::endl;
         return -2;
     }
     if(p_speed > 100 || p_speed < 10){
-        std::cerr<<"Invalid 2FG speed parameter, 10-100 is valid only."<<std::endl;
+        std::cerr<<"Invalid 2FG width parameter, The valid range is between 10 and 100."<<std::endl;
         return -2;
     }
 
