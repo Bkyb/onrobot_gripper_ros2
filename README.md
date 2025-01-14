@@ -1,7 +1,7 @@
 # onrobot_gripper_ros2
 ![Ubuntu 22.04](https://img.shields.io/badge/Ubuntu-22.04-orange)  ![ROS2 Humble](https://img.shields.io/badge/ROS2-Humble-blue)  ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
 
-ROS2 Humble Package for OnRobot 2FG7 Gripper
+Unofficial ROS2 Humble Package for OnRobot 2FG7 Gripper
 
 ## Description
 This package provides a ROS2 Humble interface for controlling the OnRobot 2FG7 gripper.  
